@@ -10,17 +10,17 @@ body {
     color: white;
 }
 
-/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 25px 10%;
-    position: fixed; /* Make the header fixed */
-    top: 0; /* Stick it to the top of the page */
+    position: fixed; 
+    top: 0; 
     left: 0;
-    width: 100%; /* Make sure it spans the full width */
-    background-color: #001b29; /* Ensure the background color stays visible */
-    z-index: 1000; /* Keep it above other elements */
+    width: 100%; 
+    background-color: #001b29;
+    z-index: 1000; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,17 +48,16 @@ body {
     color: rgb(83, 198, 243);
 }
 
-/* Container */
+
 .container {
     display: flex;
     justify-content:left;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     padding: 20px 10%;
     left:80px;
 }
 
-/* Home Content */
 .home-content h3 {
     font-size: 25px;
     font-weight: 600;
@@ -79,7 +78,7 @@ body {
     color: rgba(59, 211, 72, 0.938);
     font-size: 30px;
 }
-/* Paragraph Style */
+
 .home-content p {
     font-size: 20px;
     margin: 20px 0;   
@@ -91,7 +90,7 @@ body {
     animation-delay: 1s; 
 }
 
-/* Keyframes for Fade In Animation */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -102,7 +101,7 @@ body {
 }
 
 
-/* Social Media Icons */
+
 .social-media {
     margin: 20px 0;
 }
@@ -119,7 +118,7 @@ body {
     background-color: #0ef;
 }
 
-/* Button */
+
 .button {
     background-color: #0ef;
     padding: 10px 30px;
@@ -135,7 +134,7 @@ body {
     color: #001b29;
 }
 
-/* About Section */
+
 .about-container {
     padding: 50px 10%;
     text-align: center;
@@ -168,7 +167,7 @@ body {
     color: #001b29;
 }
 
-/* Keyframes */
+
 @keyframes navMenu {
     0% {
         transform: translateX(100px);
@@ -199,7 +198,7 @@ body {
     }
 }
 
-/* Skills Section */
+
 .skills-section {
     max-width: 800px;
     margin: 0 auto;
@@ -268,9 +267,9 @@ body {
     background-color: #e74c3c;
 }
 .animated-paragraph {
-    opacity: 0; /* Start invisible */
-    transform: translateY(20px); /* Start slightly below */
-    animation: fadeIn 1s forwards; /* Apply the animation */
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 1s forwards; 
 }
 .animated-paragraph {
     font-size:20px;
@@ -278,28 +277,28 @@ body {
 
 @keyframes fadeIn {
     to {
-        opacity: 1; /* End fully visible */
-        transform: translateY(0); /* Move to original position */
+        opacity: 1; 
+        transform: translateY(0); 
     }
 }
 
 
-/* Add Hover Animation to Skills */
+ 
 .contact {
-    color: #ecf0f1; /* Light text color */
+    color: #ecf0f1; 
     padding: 60px 20px;
     border-radius: 8px;
     height:100vh;
-    opacity: 0; /* Start invisible */
-    transform: translateY(20px); /* Start below */
-    animation: fadeIn 0.5s forwards; /* Fade-in animation */
+    opacity: 0; 
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards; 
 }
 
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 40px;
     text-align: center;
-    color: #1abc9c; /* Accent color */
+    color: #1abc9c; 
 }
 
 .contact-container {
@@ -313,8 +312,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 700px; /* Adjust max-width as needed */
-}
+    max-width: 700px;
 
 .input-container {
     position: relative;
@@ -326,24 +324,24 @@ body {
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
-    color: #1abc9c; /* Icon color */
+    color: #1abc9c; 
 }
 
 .control_input {
     width: 100%;
-    padding: 12px 40px; /* Padding to avoid overlap with icon */
-    border: 1px solid #7f8c8d; /* Light border */
+    padding: 12px 40px; 
+    border: 1px solid #7f8c8d; 
     border-radius: 5px;
     color: white;
     transition: border-color 0.3s ease;
 }
 
 .control_input:focus {
-    border-color: #1abc9c; /* Highlight on focus */
+    border-color: #1abc9c; 
 }
 
 .control_button {
-    background-color: #1abc9c; /* Button color */
+    background-color: #1abc9c; 
     color: white;
     width: 30%;
     padding: 12px 20px;
@@ -351,15 +349,15 @@ body {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .control_button:hover {
-    background-color: #16a085; /* Darker shade on hover */
-    transform: scale(1.05); /* Slightly scale up the button on hover */
+    background-color: #16a085; 
+    transform: scale(1.05); 
 }
 
-/* Animation Keyframes */
+
 @keyframes fadeIn {
     to {
         opacity: 1; /* End fully visible */
